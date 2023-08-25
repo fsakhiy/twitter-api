@@ -16,7 +16,7 @@ services:
       - PORT=3300
       
     ports:
-      - "${port}:${port}"
+      - "${PORT}:${PORT}"
     volumes:
       - .:/app
     depends_on:
