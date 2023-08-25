@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 
 services:
   app:
@@ -16,7 +16,7 @@ services:
       - PORT=3300
       
     ports:
-      - "${PORT}:${PORT}"
+      - "3300:3300"
     volumes:
       - .:/app
     depends_on:
