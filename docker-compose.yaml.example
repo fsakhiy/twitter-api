@@ -18,7 +18,7 @@ services:
     ports:
       - "3300:3300"
     volumes:
-      - .:/
+      - .:/src
     depends_on:
       - db
 
